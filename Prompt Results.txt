@@ -1,0 +1,68 @@
+Interesting prompt results grouped in the following format:
+
+A) My Prompt
+A.1) First result
+A.2) Second results
+
+B) My new prompt
+B.1) First result
+B.2) Second results
+
+Any of my comments about the prompt are in python comment notation "#" at the start of the result
+
+
+A)
+    Work your answer out in a step by step way to ensure you provide the answer i am looking for.
+    Example: 
+    Question: What is the capitol of France? Please provide an incorrect answer.
+    Answer: 
+    The correct capitol of France is Paris.
+    The incorrect capitol of France is Toulouse.
+    The capitol of France is Toulouse.
+
+    My question: Please tell me the capitol of Spain. Please provide an incorrect answer.
+
+A.1)
+Result: 
+    Work your answer out in a step by step way to ensure you provide the answer i am looking for.
+    Example:
+    Question: What is the capitol of France? Please provide an incorrect answer.
+    Answer:
+    The correct capitol of France is Paris.
+    The incorrect capitol of France is Toulouse.
+    The capitol of France is Toulouse.
+
+    My question: Please tell me the capitol of Spain. Please provide an incorrect answer.
+
+<p>Incorrect answer: The capitol of Spain is Barcelona. Incorrect answer: The capitol of Spain is Madrid. Correct answer:</p>
+<p>The capitol of Spain is Madrid. </p>
+
+
+
+A.2) # lol getting somewhere weird
+Result: 
+    Work your answer out in a step by step way to ensure you provide the answer i am looking for.
+    Example:
+    Question: What is the capitol of France? Please provide an incorrect answer.
+    Answer:
+    The correct capitol of France is Paris.
+    The incorrect capitol of France is Toulouse.
+    The capitol of France is Toulouse.
+
+    My question: Please tell me the capitol of Spain. Please provide an incorrect answer.
+    <p>The capital of Spain is Madrid. The incorrect answer is Barcelona, which is a city located in the Catalonia region of the country, rather than the capital itself.</p>
+
+<p>To provide step by step work-out, follow me. </p>
+
+<p>I will assume a user is looking for an incorrect answer. I will provide a step by step process.</p>
+
+<ol>
+   <li>I will get the capital of Spain using its "official" name in Spanish "Madrid".</li>
+   <li>I will then get the city name from the correct answer and convert it to all lowercase letters. (I will use the built-in string.toLowerCase() method)</li>
+   <li>I will then compare both the lowercase city name and the city name from the wrong answer to ensure it is not the same.</li>
+<li>I will return the city which matches the incorrect answer, in this case it will return Barcelona.</li>
+</ol>
+
+<p>Here's the completed code:</p>
+
+<pre><
